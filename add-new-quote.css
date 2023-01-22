@@ -1,0 +1,36 @@
+/* body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+} */
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  background-image: url("https://dennmart.me/content/images/2015/10/fountain-pen-on-paper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  gap: 5px;
+}
+.container button {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+}
+.input {
+  width: 300px;
+  font-size: 40px;
+  border-radius: 10px;
+  background-color: white;
+  color: rgb(154, 144, 144);
+  border: 4px solid rgb(152, 94, 94);
+}

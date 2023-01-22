@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.list {
+  height: 90vh;
+  overflow: auto;
+}
+.list li {
+  height: 50px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(110, 115, 110);
+  opacity: 0.8;
+  border-radius: 15px;
+  margin: 20px 50px;
+  text-align: center;
+  font-size: 35px;
+}
+.container {
+  text-align: center;
+  background-image: url("https://media.freestocktextures.com/cache/e6/3b/e63bacc24974e699953c3c39aad98d88.jpg");
+}
+.input {
+  background-image: url("https://media.freestocktextures.com/cache/e6/3b/e63bacc24974e699953c3c39aad98d88.jpg");
+}
+.container input {
+  margin: 10px;
+}
+#search {
+  background-color: rgba(95, 39, 39, 0.459);
+  width: 300px;
+  height: 50px;
+  font-size: 40px;
+  border-radius: 10px;
+}
+::placeholder {
+  color: white;
+}
